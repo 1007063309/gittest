@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+ 
+<html class="chrome v55" lang="zh">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+<title>WpsShop运维集成软件</title>
+  <link rel="shortcut icon" href="http://k3.kuaikuai.com/g/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="">
+    <meta name="description" content="wpsshop电商系统">
+ <!--WPSUICSSJSCOREFrow_1_b100--> <!--WPSUICSSJSCOREFrow_1_b100--><!--WPSUICSSJSCOREFtopindex-->    <script src="//k3.kuaikuai.com/57public/skin/index/default/ui/js/jquery-3.2.1.min.js"></script>
+  <!--WPSUICSSJSCOREFtopindex--><!--WPSUICSSJSCOREFfootermsg--> <!--WPSUICSSJSCOREFfootermsg--><!--WPSUICSSJSCOREFtopheadermenu-->    <!--WPSUICSSJSCOREFtopheadermenu--><!--WPSUICSSJSCOREFsoftdown--> <!--WPSUICSSJSCOREFsoftdown--><!--WPSUICSSJSCOREFsoftdis-->      <!--WPSUICSSJSCOREFsoftdis--><!--WPSUICSSJSCOREF--> 
+     
+  
+
+    
+   <!--WPSUICSSJSFcorecss--><link rel="stylesheet" href="http://k3.kuaikuai.com/57public/skin/index/default/ui/css/corecss.css?v=97077" type="text/css"/><!--WPSUICSSJSFcorecss-->   
+<!--WPSUICSSJSFcasecss--><link rel="stylesheet" href="http://k3.kuaikuai.com/57public/skin/index/default/ui/css/casecss.css?v=25303" type="text/css"/><!--WPSUICSSJSFcasecss-->   
+<!--WPSUICSSJSFsoftdowncss--><link rel="stylesheet" href="http://k3.kuaikuai.com/57public/skin/index/default/ui/css/softdowncss.css?v=97835" type="text/css"/><!--WPSUICSSJSFsoftdowncss-->   
+<!--WPSUICSSJSF--> 
+   
+<style type="text/css">
+   body{
+     padding-top:0px;
+     margin:0px;
+   }
+   .cppui-container-1{
+      position: relative;
+      background-color: #fff;
+      margin:0px auto;
+      height:auto;
+   }
+   .cppui-row-1{
+    position: relative;
+     margin:0px auto;
+     height:auto;
+     width:1190px; /*960 1190*/
+   }
+   .cppui-row-1_100{   /*1 100%*/
+    position: relative;
+     margin:0px auto;
+     height:auto;
+     width:100%; /*960 1190*/
+   }
+   .cppui-column-1-1-0-1,.cppui-column-1-0-1,.cppui-column-1-1-1-0-1,.cppui-column-360-auto-0-1,.cppui-column-auto-0-1{
+     background-color: #fff;
+     position: relative;
+     height:auto;
+     display: inline-block;
+   }
+   .cppui-column-1-1-0-1/*1:1*/
+     width: 49%;
+   
+     .cppui-column-1-0-1{  /*1*/
+     width: 99%;
+   }
+   .cppui-column-1-1-1-0-1{  /*1:1:1*/
+     width: 33%;
+   }
+   .cppui-column-360-auto-0-1{  /*360:auto*/
+     width: 360px;
+   }
+   .cppui-column-auto-0-1{  /*360:auto*/
+     width:auto;
+   }
+     
+     
+    
+  </style>
+  
+     
+   
+   
+  </head>
+  <body class=" ">
+ <!--bodytop-->
+  
+<!-- 布局  -->
+  
+<div class='cppui-container-1 cppui-container-view-1'><!--WEBUIDRAGcontainer--><div class="cppui-row-1_100 cppui-row-view-1  row_1_100 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1_100-0-1 column-view-com cppui-column-1_100-0-view-1 ui-sortable">
+        <div class="drag-item-show-view-1 topindex_view_pic ui-draggable" style="display: block;"> <!--组件最外层要添加 drag-item-hide-view-1 -->
+<div class="index001-top-adv drag-item-hide-view-1">
+<a href="#" target="_blank">&nbsp;</a>
+</div>
+</div></div>
+ 
+       <!--row_1_b100_softdown_1649--></div><div class="cppui-row-1_100 cppui-row-view-1  row_1_100 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1_100-0-1 column-view-com cppui-column-1_100-0-view-1 ui-sortable">
+        <div class="drag-item-show-view-1 topheadermenu_view_pic ui-draggable" style="display: block;"> 
+    <!--组件最外层要添加 drag-item-hide-view-1 -->
+<div class="index002-header   drag-item-hide-view-1">
+      <div class="index002-container">
+                <div class="index002-logo index002-fl">
+                	<a href="http://k3.kuaikuai.com/" class="index002-logo_img"><img src="https://img.alicdn.com/imgextra/i2/2148337025/TB2DyO4d7fb_uJkSndVXXaBkpXa_!!2148337025.png" alt=""></a>
+                  
+                </div>
+                <div class="index002-nav index002-fl">
+                    <ul>
+                        <li><a class="index002-nav-a     " href="http://k3.kuaikuai.com/">首页</a></li>
+                 
+ 
+                        <li>
+                            <a class="index002-nav-a   " href="http://k3.kuaikuai.com/g/cases">
+案例展示<i class="index002-icon1"></i></a>
+                          
+                        </li>
+                        <li>
+                            <a class="index002-nav-a    " href="http://k3.kuaikuai.com/g/host">主机<i class="index002-icon1"></i>
+ <img src="//k3.kuaikuai.com/57public/skin/index/default/ui/images/hot1.gif" class="index002-hot" alt="hot"></a>
+                          
+                        </li>
+                        <li>
+                            <a class="index002-nav-a  " href="javascript:viod(0);" onclick="dviewshow();">软件下载
+                            <i class="index002-icon1"></i>
+                           </a>
+                          
+                        </li>
+                        <li>
+                            <a class="index002-nav-a   index002-curr" href="http://k3.kuaikuai.com/g/softdown">
+wpsshop运维<i class="index002-icon1"></i></a>
+                        </li>
+                                              <li>
+                            <a class="index002-nav-a   " href="http://k3.kuaikuai.com/g/hcsoft">
+HC网灵1<i class="index002-icon1"></i></a>
+                        </li>
+                    </ul>
+                </div>
+<!--
+                <div class="index002-demo index002-fl">
+                	<a href="#" target="_blank" class="index002-kf_service index002-demo-link"><i class="index002-icon"></i><span>查看演示</span></a>
+                	<div class="index002-demo-sub">
+                    <i class="index002-arrow"></i>
+                    <div class="index002-inner">
+                      
+                    </div>
+                </div>
+                </div> -->
+     </div>
+</div></div></div>
+ 
+       <!--row_1_b100_softdown_1656--></div><div class="cppui-row-1_100 cppui-row-view-1  row_1_100 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1_100-0-1 column-view-com cppui-column-1_100-0-view-1 ui-sortable">
+        <div class="drag-item-show-view-1 softdown_view_pic ui-draggable" style="display: block;">   <!--组件最外层要添加 drag-item-hide-view-1 -->  
+<div class="softdown-wrap-index-info drag-item-hide-view-1">
+ <div class="softdown-container">
+				<div class="row index-info">
+					<div class="col-md-6 col-xs-6 info-left">
+						<div class="video">
+							<img src="//k3.kuaikuai.com/57public/skin/index/default/ui/images/softdown.png" style="height:262px; margin-top:20px;box-shadow: 0 0 8px 0 rgba(0,0,0,.15);"  >
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-6 info-right">
+						<div class="row top">
+							wpsshopserver是完全免费且易于安装的运维软件，其中包含Apache、MySQL、PHP和Nginx。软件凭借其灵活 的配置与强大的性能领先国内运维类产品，并赢得众多用户的一致认可。
+						</div>
+						<div class="row bottom">
+							<div class="col-md-6 left"></div>
+							<div class="col-md-6 right">
+								<dl>
+									<dt>WpsShop运维软件<span class="">(wpsshopserver V5.0.6)</span></dt>
+									<dd>1、最流行的PHP开发包</dd>
+									<dd>2、适用于Windows</dd>
+									<dd>3、快速安装和配置</dd>
+									<dd>4、完全免费 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								 
+									 </dd>
+									 <dd>5、百度网盘下载链接
+									<a target="_blank" style="color:red;" href="https://pan.baidu.com/s/1s6TNeBOeffGrHn9OMRBFiQ">https://pan.baidu.com/s/1s6TNeBOeffGrHn9OMRBFiQ</a>
+									提取码: te54
+									 </dd>
+								</dl>
+								 
+									
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+</div></div></div>
+ 
+       <!--row_1_b100_softdown_1659--></div><div class="cppui-row-1_100 cppui-row-view-1  row_1_100 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1_100-0-1 column-view-com cppui-column-1_100-0-view-1 ui-sortable">
+        <div class="drag-item-show-view-1 softdis_view_pic ui-draggable" style="display: block;">   <!--组件最外层要添加 drag-item-hide-view-1 -->   
+<section class="sec5 t-center softdown-sec5 drag-item-hide-view-1">
+    <div class="container">
+        <div class="title">Apache + MySQL + PHP + Nginx</div>
+        <ul class="list-wrap">
+            <li class="item">
+                <div class="up"> wpsshopserver是完全免费且易于安装的运维软件。</div>
+                <img class="img" src="//k3.kuaikuai.com/57public/skin/index/default/ui/images/efree.png" alt="关于wpsshopserver"> 
+                <div class="down">关于wpsshopserver</div>
+            </li><li class="item">
+                <div class="up">Apache + MySQL + PHP和Nginx + MySQL + PHP两种模式</div>
+                <img class="img" src="//k3.kuaikuai.com/57public/skin/index/default/ui/images/emode.png" alt="安装模式"> 
+                <div class="down">安装模式</div>
+            </li><li class="item">
+                <div class="up">适用于Windows(已测试WindowsServer2012、Windows 8.1、Windows 10 等)</div>
+                <img class="img" src="//k3.kuaikuai.com/57public/skin/index/default/ui/images/ewindow.png" alt="运行环境"> 
+                <div class="down">运行环境</div>
+            </li>
+        </ul>
+    </div>
+</section></div></div>
+ 
+       <!--row_1_b100_softdown_1658--></div><div class="cppui-row-1 cppui-row-view-1 row_1_1 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1-1-0-1 column-view-com cppui-column-1-1-0-view-1 ui-sortable" style="width: 561px;">
+        <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block;"><!--doclist_softdown_1672--></div></div>
+        <div class="cppui-column-1-1-0-1 column-view-com cppui-column-1-1-0-view-1 ui-sortable" style="width: 561px;">
+         <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block;"><!--doclist_softdown_1655--></div></div>
+   
+       <!--row_1_1_softdown_1651--></div><div class="cppui-row-1 cppui-row-view-1 row_1_1_1 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1-1-1-0-1 column-view-com cppui-column-1-1-1-0-view-1  ui-sortable" style="width: 362px;">
+        <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block;"><!--doclist_softdown_1667--></div></div>
+        <div class="cppui-column-1-1-1-0-1 column-view-com cppui-column-1-1-1-0-view-1  ui-sortable" style="width: 362px;">
+         <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block;"><!--doclist_softdown_1668--></div></div>
+           <div class="cppui-column-1-1-1-0-1 column-view-com cppui-column-1-1-1-0-view-1  ui-sortable" style="width: 362px;">
+         <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block;"><!--doclist_softdown_1669--></div></div>
+
+
+       <!--row_1_1_1_softdown_1665--></div><div class="cppui-row-1 cppui-row-view-1 row_360_auto ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-360-auto-0-1 column-view-com cppui-column-com-view cppui-column-360-auto-0-view-1  ui-sortable" style="width: 326px;">
+        <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block; position: relative; left: 0px; top: 0px;"><!--doclist_softdown_1670--></div></div>
+        <div class="cppui-column-auto-0-1 column-view-com  cppui-column-com-view  cppui-column-auto-0-view-1 ui-sortable" style="width: 796px;">
+         <div class="drag-item-show-view-1 doclist_view_pic ui-draggable" style="display: block;"><!--doclist_softdown_1673--></div></div>
+   
+
+
+       <!--row_360_auto_softdown_1666--></div><div class="cppui-row-1_100 cppui-row-view-1  row_1_100 ui-draggable" style="display: block; position: relative; left: 0px; top: 0px;">
+              
+    
+         <div class="cppui-column-1_100-0-1 column-view-com cppui-column-1_100-0-view-1 ui-sortable">
+        <div class="drag-item-show-view-1 footermsg_view_pic ui-draggable" style="display: block;">  <!--组件最外层要添加 drag-item-hide-view-1 --> 
+<div class="index006-cover-page-foot drag-item-hide-view-1">
+<!-- <p class="subnav">
+<a target="_blank" href="#">联系我们</a>
+<a target="_blank" href="#">公司简介</a>
+<a target="_blank" href="#">支付方式</a>
+<a target="_blank" href="#">法律条款</a>
+<a target="_blank" href="#">合作伙伴</a>
+<a target="_blank" href="#">友情链接</a>
+<a target="_blank" href="#">诚聘英才</a>
+<a target="_blank" href="#">投诉建议</a>
+<a target="_blank" href="#">服务支持</a>
+<a class="last" target="_blank" href="#">站点地图</a>
+</p> -->
+<p class="copyright">Copyright ©  2003-2013 wpsshop.cn   版权所有，并保留所有权利。
+</p>
+<!-- <p class="address">深圳万商联科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ <p class="verify" style="height:50px; padding:15px 0; text-align:center">
+ 
+<a  style="display:inline-block;"  target="_blank"   href="#">
+<img src="http://www.ecmoban.com/content/themes/ecmoban2014/images/cover-page-foot-2.png" alt="可信网站"></a>
+<a href="#" target="_blank"><img src="http://www.ecmoban.com/content/themes/ecmoban2014/images/cover-page-foot-3.png" alt="诚信网站"></a>
+ </p> -->
+<div style="background-color:#E1E1E1; text-align:center; height:20px;padding-top:5px;">
+<a target="_blank" href="#" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+<img src="//k3.kuaikuai.com/57public/skin/index/default/ui/images/beian_ghs.png" style="float:left;">
+<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">闽ICP备14008679号-3</p></a>
+ 
+</div></div>   </div></div>
+ 
+       <!--row_1_b100_softdown_1657--></div><div class="cppui-row-1_100 cppui-row-view-1  row_1_100 ui-draggable" style="display: block;">
+              
+    
+         <div class="cppui-column-1_100-0-1 column-view-com cppui-column-1_100-0-view-1 ui-sortable">
+        <div class="drag-item-show-view-1 softdown_view_pic ui-draggable" style="display: block;">  <!--组件最外层要添加 drag-item-hide-view-1 --> 
+<div   class="drag-item-hide-view-1">
+<div id="dlMask" style="display: none;position: fixed;
+z-index: 991;
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;"></div>
+<iframe name="UploadAlbum" style="display:none" src=""></iframe>
+  <div id='downid' style="display:none;z-index: 999; position:fixed; width: 100%;top: 180px;border:0px solid #444444">
+
+<form  id="p57form"  target="UploadAlbum" name="p57form"   method="post" action="admin.shtml?s=ad_upl_act/downfile"   onsubmit="return p57postcheck()" >
+<div style="  background: #fff;position: relative; margin : auto;width: 700px;padding-top:10px;height:180px;border:0px solid #111444;border-radius: 10px;box-shadow:0 0 8px #6f6f6f;">
+
+  <div style='position: absolute;
+top:2px;
+right: 20px;
+z-index: 10;font-size:20px;
+border: 0px solid #DDDDDD;
+background-color: transparent;'>
+<a href="javascript:void(0);" onclick="dviewremove('#downid');" class="remove">x</a> </div>
+
+<table class=" " style='width: 600px;height:150px;margin : auto;color: #000; font-size: 20px;' cellspacing="1" cellpadding="2">
+<tbody><tr>
+<td class=" " style='color: #006699; font-size: 18px;' >手机号：</td>
+<td  >
+<input type="hidden" name="mm" value="c5b22acff4df5d34b10a40888523659f">
+<input type="hidden" name="filePath" value="version/57php订单系统官方正版170711v6.0.5.rar">
+  <input type="text" name="p57mob" id="p57mob" value=''  style='padding-left:8px;width:140px;height:28px;margin-right:10px;border-radius: 3px;border:1px solid #dfdcdd' >
+验证码: <input name="p57mobcode" id="p57mobcode"  style='padding-left:8px;width:60px;height:28px;margin-right:10px;border-radius: 3px;border:1px solid #dfdcdd'  type="text"><input id="getcode" value="获取验证码 >>" onclick="smscode();" class="smscode" style='cursor:pointer;' type="button">
+                    
+</td>
+
+</tr>
+<tr  id="baidu"  style="display:none;">
+<td class=" " style='color: #006699; font-size: 16px;' >地址：</td>
+<td class=" " colspan=" " id='baidu1' style='color: #006699; font-size: 14px;'>
+<a href="" target="_blank" rel="nofollow">
+ </a>
+ 
+ </td>
+
+</tr>
+<tr   >
+<td class=" " colspan="2" >
+ 
+<input style='margin-left:25px;color: #000; font-size: 16px;width:100px;cursor:pointer;' value="官方下载" title="官方下载" type="submit"  >
+ <input style='margin-left:25px;color: #000; font-size: 16px;width:100px;cursor: pointer;' value="百度下载" title="百度下载" type="button" onclick="downbaidu();">
+ <span style='margin-left:9px;color: blue; font-size: 16px;width:100px; '>咨询官方客服。</span>
+   <span style=' '>
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1054577224&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow">
+<img style='  ' src="//k3.kuaikuai.com/57public/mobskin/mob_newmb-dy/images/buttonqq.gif" title="技术支持">
+</a>
+ </span>
+ 
+ </td>
+
+</tr>
+</tbody></table>
+</div>
+</form>
+</div>  
+
+</div>  </div></div>
+ 
+       <!--row_1_b100_softdown_1650--></div><!--WEBUIDRAGcontainer--></div>
+
+<!-- 布局  -->
+
+
+
+
+ <!--bodybottom-->  
+<script type="text/javascript">
+
+ 
+/*WPSUIJSADD*/
+
+
+
+
+
+
+ 
+</script>
+
+
+ <!--WPSUIJSENDFsystemjs--><script type="text/javascript" src="http://k3.kuaikuai.com/57public/skin/index/default/ui/js/systemjs.js?v=53047"></script><!--WPSUIJSENDFsystemjs-->   
+<!--WPSUIJSENDFcorejs--><script type="text/javascript" src="http://k3.kuaikuai.com/57public/skin/index/default/ui/js/corejs.js?v=51618"></script><!--WPSUIJSENDFcorejs-->   
+<!--WPSUIJSENDFcasejs--><script type="text/javascript" src="http://k3.kuaikuai.com/57public/skin/index/default/ui/js/casejs.js?v=41412"></script><!--WPSUIJSENDFcasejs-->   
+<!--WPSUIJSENDFsoftdownjs--><script type="text/javascript" src="http://k3.kuaikuai.com/57public/skin/index/default/ui/js/softdownjs.js?v=61122"></script><!--WPSUIJSENDFsoftdownjs-->   
+<!--WPSUIJSENDF--> 
+     
+     
+</body></html>

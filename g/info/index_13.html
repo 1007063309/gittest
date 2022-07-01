@@ -1,0 +1,177 @@
+  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+<title>信息快递</title>
+
+<meta name="keywords" content="信息快递">
+<meta name="description" content="信息快递">
+
+<meta name="robots" content="noindex,nofollow"/>
+ 
+<meta http-equiv="x-ua-compatible" content="IE=8"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://k1.kuaikuai.com/57public/skin/index/default/company/favicon.ico"/>
+<link rel="bookmark" type="image/x-icon" href="http://k1.kuaikuai.com/57public/skin/index/default/company/favicon.ico"/>
+ 
+<link rel="stylesheet" href="http://k1.kuaikuai.com/57public/skin/index/default/company/css/comcss.css" type="text/css"/>
+
+ 
+<script type="text/javascript" src="http://k1.kuaikuai.com/57public/skin/modadmin/js/jquery-1.9.1.js?v=1.22"></script>
+  
+
+ <style type="text/css">
+ 
+ </style>
+
+</head>
+<body>
+
+  
+ <header class="header190430">
+    <div class="wrap clear">
+        <a href="http://k1.kuaikuai.com/" class="logo">
+        </a>
+        <ul id="nav" class="clear f16 white">
+            <li>
+                <a href="http://k1.kuaikuai.com/">首页</a>
+            </li>
+            
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/new"  class="b-active" >新闻中心</a>
+            </li>
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/customer"  class="" >客服中心</a>
+            </li>
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/zhaopin"  class="" >校园招聘</a>
+            </li>
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/notice"  class="" >官方公告</a>
+            </li>
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/about"  class="" >关于我们</a>
+            </li>
+         
+                      
+        </ul>
+        <div id="move">
+            <div class="moveAlong" style="left: 800px;"></div>
+        </div>
+    </div>
+
+
+</header>
+
+
+<script type="text/javascript">
+
+ function initmenu(){
+	 var offset = $(".b-active").parent().position();
+     var wd = $(".b-active").parent().width();
+     lf=offset.left;
+     $(".moveAlong").css("left", (lf-172+wd/2-32)+'px');
+ }
+$(document).ready(function(){
+	initmenu();
+	$("#nav>li").hover(
+			  function () {
+				  $(".moveAlong").stop();    
+				  var offset1 = $(this).parent().parent().position();
+
+				  var offset = $(this).position();
+				  var wd = $(this).width();
+				  lf1=offset1.left;
+				  lf=offset.left;
+			// $(".b-active").html(lf);  //196-32   64
+				  $(".moveAlong").animate({left: (lf-172+wd/2-32)+'px'}, "10");
+			  },
+			  function () {
+				  $(".moveAlong").stop();
+				  if($(this).find("a").hasClass("b-active")){
+					  
+				  }else{
+					  var offset = $(".b-active").parent().position();
+					     var wd = $(".b-active").parent().width();
+					     lf=offset.left;
+					     $(".moveAlong").animate({left: (lf-172+wd/2-32)+'px'}, "10");
+				  }
+			  }
+			);
+ 
+
+ });
+	
+	
+</script> 
+ 
+
+
+ <div class="body-content190430">
+<div class="detail-content" id="utopia_widget_3">
+
+<div class="news-sidebar">
+ <ul class="tbg-menu">
+      
+            <li>
+                <a href="http://k1.kuaikuai.com/g/37"  style="color:red;" >信息快递</a>
+            </li>
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/38"  style="" >最新公告</a>
+            </li>
+         
+            <li>
+                <a href="http://k1.kuaikuai.com/g/39"  style="" >工作汇报</a>
+            </li>
+        
+</ul>
+</div>
+ 
+<article class="news-article" id="utopia_widget_5">
+        <h3 class="article-title">
+                        asdfasdf         </h3>
+         <p class="article-time">
+            2018-07-12
+          </p>
+          <div class="article-content">
+             <p>asdfasdfasdfsdf<br/></p>          </div>
+</article> 
+</div> 
+</div>
+ 
+  <footer class="footer190430">
+    <div class="fHead white textc f14">
+       
+    </div>
+    <p class="fContent ">Copyright ©  2003-2013 wpsshop.cn | xxxx 版权所有，并保留所有权利。</p>
+ 
+    <p class="fContent ">粤ICP备16094308号-1</p>
+
+    <div style="width:800px;margin:0 auto; padding:4px 0;">      
+     </div>
+</footer>
+
+ 
+  
+  
+ <script type="text/javascript">
+
+ 
+$(document).ready(function(){
+ 
+	 
+ });
+	
+	
+</script>
+</body>
+</html>
